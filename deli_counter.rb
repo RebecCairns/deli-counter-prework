@@ -1,4 +1,6 @@
 def line(passValue) 
-  return passValue
-  return "The line is currently empty."
+  if(passValue == "")
+    return "The line is currently empty."
+  end 
+  return "The line is ..."
 end   
