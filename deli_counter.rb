@@ -12,4 +12,6 @@ def line(arr)
       end
       puts returner
     end  
-end   
+end  
+
+def take_a_number()
