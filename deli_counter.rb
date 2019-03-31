@@ -13,7 +13,7 @@ def line(arr)
       puts returner
     end  
 end  
-
+#"Welcome, Grace. You are number 4 in line."
 def take_a_number(arr, name)
-  returner =
+  returner = "Welcome, #{name}. You are #{arr.length} in line."
 end   
