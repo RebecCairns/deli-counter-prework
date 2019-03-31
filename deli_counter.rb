@@ -1,6 +1,8 @@
+ketz_deli = [ ]
+
 
 def line(val)
-    if(val == "there is nobody in line")
+    if(ketz_deli.lenght == 0)
      puts "The line is currently empty."
     end
 end   
