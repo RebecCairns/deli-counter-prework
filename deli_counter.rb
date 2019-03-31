@@ -10,7 +10,6 @@ def line(arr)
         returner += " #{counter}. #{arr[counter-1]}" 
         counter += 1
       end
-      returner += "."
       puts returner
     end  
 end   
