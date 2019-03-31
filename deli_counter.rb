@@ -15,7 +15,7 @@ def line(arr)
 end  
 #"Welcome, Grace. You are number 4 in line."
 def take_a_number(arr, name)
-  returner = "Welcome, #{name}. You are number #{arr.length} in line."
+  returner = "Welcome, #{name}. You are number #{arr.length + 1} in line."
   puts returner
   arr.push(name)
   return arr 
