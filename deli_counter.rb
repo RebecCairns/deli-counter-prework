@@ -1,4 +1,4 @@
-ketz_deli = [ ]
+$ketz_deli = [ ]
 
 
 def line(val)
