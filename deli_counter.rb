@@ -22,9 +22,11 @@ def take_a_number(arr, name)
 end   
 def now_serving(arr)
   if(arr.length == 0)
-    
+    puts "The line is empty."
   end   
   if(arr.length >= 1)
     puts "Now serving #{arr[0]}";
+    arr.shift
   end 
+  return arr
 end   
