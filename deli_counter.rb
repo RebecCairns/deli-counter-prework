@@ -18,10 +18,10 @@ def take_a_number(arr, name)
   if(arr.length >= 1)
     returner = "Welcome, #{name}. You are number #{arr.length} in line."
     puts returner
-    return arr.push(name)
   end 
   if(arr.length < 1)
-    
+    arr.push
   end   
-  
+  arr.push(name)
+  return arr 
 end   
